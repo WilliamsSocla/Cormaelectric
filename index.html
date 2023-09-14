@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./site/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Cormaelectric</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <div class="container-logo">
+                        <h1 class="logo"><a href="/">Cormaelectric</a></h1>
+                    </div>       
+                    <div class="content-customer-support">
+                        <span class="text">Consultas</span>
+                        <span class="number">7558422-2321261</span>
+                    </div>
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+            </div>
+<!--<div class="container-navbar">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Facturación Electrónica</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Ingresar al facturador</a></li>
+                      <li><a class="dropdown-item" href="#">Buscar comprobante</a></li>
+                      <li><a class="dropdown-item" href="#">Consulta de validez</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contactános</a>
+                    </li>
+                </ul>
+          </div>-->
+        </div>
+        
+        <section class="banner">
+            <div class="content-banner">
+                <h3>Lideres del distrito en comercializar productos ferreteros</h3>
+                <a href="#">Catalogo</a>
+            </div>
+        </section>
+    </header>
+
+    <div class="fe-box0">
+        <h2>Contamos con distintos tipos de productos</h2>
+    </div>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="./img/Herramientas.png" alt="">
+            <h6>Herramientas</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./img/Construccion.png" alt="">
+            <h6>Construcción</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./img/Eletricos.png" alt="">
+            <h6>Electricidad</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./img/Gasfiteria.png" alt="">
+            <h6>Gasfitería</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./img/Iluminacion.png" alt="">
+            <h6>Iluminación</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Productos destacados</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./img/product-1.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Cemento Sol x 42.5kg</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/28.50</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-8.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Ladrillo king kong 18 huecos</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/0.80</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-2.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Cemento Andino Portland x 42.5kg</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/23.60</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-4.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Caja universal 2x4</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/13.50</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-5.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Linterna LED 110Lm 20V DCL040</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/139</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-6.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Tubo de abasto 1/2x7/8x40</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/16.50</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-7.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Taladro Percutor 1/2" 20V BRUSHLESS + 1 Bateria 5.0Ah DCD796P1 Dewalt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/880</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./img/product-3.jpg" alt="">
+                <div class="des">
+                    <span>Construcción</span>
+                    <h5>Interruptor Sonoff T3U Smart</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>S/109</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="fe-box0">
+        <h2>Nuestras ubicaciones</h2>
+    </div>
+
+    <section class="mapa">
+    <div id="mi_mapa">
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script>
+            let map = L.map('mi_mapa').setView([-11.10541,-77.60278],14)
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    L.marker([-11.10541,-77.60278]).addTo(map).bindPopup("Cormaelectric principal")
+    L.marker([-11.0903,-77.5809]).addTo(map).bindPopup("Cormaelectric sede chonta")
+    L.marker([-11.1202,-77.5917]).addTo(map).bindPopup("Cormaelectric sede huacho")
+    L.marker([-11.0934,-77.5877]).addTo(map).bindPopup("Claribel Joselia")
+        </script>
+    
+    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Tiendas
+      </a>
+    </div>
+    </section>
+    
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Contamos con 4 tiendas:
+            <li>Cormaelectric sede principal</li>
+            <li>Cormaelectric sede huacho</li>
+            <li>Cormaelectric sede chonta</li>
+            <li>Claribel Joselia</li>
+          </div>
+        </div>
+      </div>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Contactanos</h4>
+                    <ul>
+                        <li>A.V. 26 de Mayo Isabel FI Lote. 16</li>
+                        <li>946021946 - 6360182</li>
+                        <li>8:00 - 20:00, Lun - Dom</li>        
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Nosotros</h4>
+                    <ul>
+                        <li><a href="#">La empresa</a></li>
+                        <li><a href="#">Nuestras tiedas</a></li>
+                        <li><a href="#">Servicio</a></li>        
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Atencion al cliente</h4>
+                    <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                        <li><a href="#">Terminos y condiciones de compra</a></li>     
+                        <li><a href="#">Politica de privacidad</a></li>   
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div>
+                    <h4>Metodos de pago</h4>
+                    <p class="newsletter-text">
+                        Contamos con metodos de pagos opcionales.
+                      </p>
+                      <form action="" class="newsletter-form">
+                        <img src="/Img/Pagos.png" width="250" height="70" loading="lazy"
+                              alt="Simple Fabric Shoe" class="image-contain">
+                      </form>
+                    </div>
+                    <div>
+                        <h4>Redes sociales</h4>
+                        <div class="social-link">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0dc633a115.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
