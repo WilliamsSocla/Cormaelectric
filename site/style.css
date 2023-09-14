@@ -73,7 +73,7 @@ body{
 /*-----------------------------------------------------------------*/
 
 .banner{
-    background-image: linear-gradient(2deg, rgb(0, 0, 0), #3f3f3f20), url(/Img/Banner-Foto.png);
+    background-image: linear-gradient(2deg, rgb(0, 0, 0), #3f3f3f20), url(/Cormaelectric/img/Banner-Foto.png);
     height: 35rem;
     background-size: cover;
     background-position: center;
